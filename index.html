@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="div-principal">
+        <div class="div-container">
+            <div class="div-title">
+                <h1 class="title">Cadastro Ponto Túristico</h1>
+            </div>
+            <form class="form-principal">
+                <fieldset>
+                    <div class="form-legend">
+                        <legend>Dados</legend>
+                    </div>
+                    <div class="form-box">
+                        <div class="form-input">
+                            <label for="namept">Nome Ponto Túristico</label>
+                            <input type="text" id="namept" value="nome ponto">
+                        </div>
+                        <div class="form-input">
+                            <label for="tpponto">Tipo Ponto Túristico</label>
+                            <input type="select" id="tpponto">
+                        </div>
+                        <div class="form-input">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone">
+                        </div>
+
+                        <div class="form-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-input">
+                            <label for="site">Site</label>
+                            <input type="url" id="site">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="form-legend">Endereço</legend>
+                    <div class="form-box">
+                        <div class="form-input">
+                            <label class="form-label" for="cep">CEP</label>
+                            <input type="number" id="cep">
+                            <label class="form-label" for="endereco">Logradouro</label>
+                            <input type="text" id="endereco">
+                            <label class="form-label" for="numero">Nº</label>
+                            <input type="number" id="numero">
+                        </div>
+                        <div class="form-input">
+                            <label class="form-label" for="bairro">Bairro</label>
+                            <input type="text" id="bairro">
+                            <label class="form-label" for="cidade">Cidade</label>
+                            <input type="text" id="cidade">
+                            <label class="form-label" for="estado">Estado</label>
+                            <input type="text" id="estado">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="form-legend">Ingressos</legend>
+                    <div class="form-box">
+                        <div class="form-input">
+                            <label class="form-label" for="valor">Valor</label>
+                            <input type="number" id="valor">
+                            <label class="form-label" for="semana">Dias de Funcionamento</label>
+                            <input type="week" id="semana">
+                            <label class="form-label" for="time">Horarios de Funcionamento</label>
+                            <input type="time" id="time">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="form-legend">Fotos</legend>
+                    <div class="form-box">
+                        <div class="form-input">
+                            <label class="form-label" for="foto">Foto</label>
+                            <input type="file" id="foto">
+                        </div>
+                </fieldset>
+            </form>
+            <div>
+                <button type="submit" class="bt-salvar">Salvar</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #090909e9;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #a50000;
+    background-color: #2d2c2c;
+    
+}
+
+.div-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.div-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.form-principal {
+    display: flex;
+    flex-direction: column;
+    background-color:#2d2c2c ;
+    box-shadow: 2px 2px 20px 1px rgba(194, 194, 194, 0.593);
+    
+
+}
+
+.form-legend {
+    display: flex;
+    border-bottom: 1px solid #b5ceef;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.form-legend legend {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-box{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.form-input {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.form-input label {
+    color: rgb(176, 198, 220);
+    margin: 8px 10px 0 8px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.form-input input {
+    color: #fff;
+    margin: 4px 8px;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 100;
+    outline: 0;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.form-input input:focus {
+    background-color:#3b3b3b ;
+
+}
