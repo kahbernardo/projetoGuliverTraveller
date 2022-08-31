@@ -27,7 +27,7 @@
                         </div>
                         <div class="form-input">
                             <label for="tpponto">Tipo Ponto Túristico</label>
-                            <select name="select">
+                            <select name="select" class="form-select">
                                 <option value="" disabled selected hidden>Selecione o Tipo</option>
                                 <option value="museu">Museu</option>
                                 <option value="parques">Parques</option>
@@ -77,34 +77,36 @@
                             <label class="form-label" for="valor">Valor</label>
                             <input type="number" id="valor">
                             <label class="form-label" for="semana">Dias de Funcionamento</label>
-                            <div>
-                                <input type="checkbox" id="scales" name="scales">
-                                <label for="scales">Domingo</label>
-                            </div>
+                            <div class="form-line">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="scales" name="scales">
+                                    <label for="scales">Domingo</label>
+                                </div>
 
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Segunda-Feira</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Terça-Feira</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Quarta-Feira</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Quinta-Feira</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Sexta-Feira</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="horns" name="horns">
-                                <label for="horns">Sábado</label>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Segunda-Feira</label>
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Terça-Feira</label>
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Quarta-Feira</label>
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Quinta-Feira</label>
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Sexta-Feira</label>
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="horns" name="horns">
+                                    <label for="horns">Sábado</label>
+                                </div>
                             </div>
                             <label class="form-label" for="time">Horarios de Funcionamento</label>
                             <input type="time" id="time">

@@ -5,7 +5,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #090909e9;
+    background-color: #fff;
 
 }
 
@@ -18,8 +18,6 @@ fieldset {
 input {
     border: none;
     border-bottom: 1px solid #a50000;
-    background-color: #2d2c2c;
-    
 }
 
 .div-principal {
@@ -48,7 +46,7 @@ input {
 .form-principal {
     display: flex;
     flex-direction: column;
-    background-color:#2d2c2c ;
+    background-color:#9292b3 ;
     box-shadow: 2px 2px 20px 1px rgba(194, 194, 194, 0.593);
 
 }
@@ -83,7 +81,7 @@ input {
 }
 
 .form-input label {
-    color: rgb(176, 198, 220);
+    color: rgb(51, 62, 72);
     margin: 8px 10px 0 8px;
     font-size: 18px;
     font-weight: 100;
@@ -93,7 +91,7 @@ input {
 
 
 .form-input input {
-    color: #fff;
+    color: rgb(12, 12, 12);
     margin: 4px 8px;
     font-size: 18px;
     padding: 10px 10px;
@@ -105,6 +103,41 @@ input {
 }
 
 .form-input input:focus {
-    background-color:#3b3b3b ;
+    background-color:#fff ;
 
+}
+
+.form-select {
+    background-color: #fff;
+     margin: 4px 8px;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 100;
+    outline: 0;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #a50000;
+
+}
+
+.form-line {
+    display: flex;
+    flex-direction: row;
+    width: 770px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+}
+
+.checkbox-container label {
+    font-size: 12px;
+
+}
+
+input[type="checkbox"] {
+    margin: 20px 0;
 }
