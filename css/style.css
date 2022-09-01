@@ -17,7 +17,6 @@ fieldset {
 
 input {
     border: none;
-    border-bottom: 1px solid #a50000;
 }
 
 .div-principal {
@@ -46,14 +45,14 @@ input {
 .form-principal {
     display: flex;
     flex-direction: column;
-    background-color:#9292b3 ;
-    box-shadow: 2px 2px 20px 1px rgba(194, 194, 194, 0.593);
+    background-color:#cdb29b ;
+    box-shadow: 2px 2px 20px 1px rgba(248, 211, 168, 0.824);
 
 }
 
 .form-legend {
     display: flex;
-    border-bottom: 1px solid #b5ceef;
+    border-bottom: 1px solid #fff;
     margin: 10px 10px;
     padding: 10px;
 }
@@ -82,7 +81,7 @@ input {
 
 .form-input label {
     color: rgb(51, 62, 72);
-    margin: 8px 10px 0 8px;
+    margin-left: 4px;
     font-size: 18px;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
@@ -92,7 +91,7 @@ input {
 
 .form-input input {
     color: rgb(12, 12, 12);
-    margin: 4px 8px;
+    margin: 4px 4px;
     font-size: 18px;
     padding: 10px 10px;
     font-weight: 100;
@@ -116,7 +115,6 @@ input {
     outline: 0;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
-    border-bottom: 1px solid #a50000;
 
 }
 
@@ -135,9 +133,31 @@ input {
 
 .checkbox-container label {
     font-size: 12px;
-
 }
 
 input[type="checkbox"] {
-    margin: 20px 0;
+    margin: 10px 10px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputw100 {
+    width: 100%;
+    margin: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.noWidth {
+    width: auto;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.form-horarios {
+
 }
