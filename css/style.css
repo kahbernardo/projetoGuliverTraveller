@@ -5,7 +5,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #cdb29b;
 
 }
 
@@ -45,8 +45,8 @@ input {
 .form-principal {
     display: flex;
     flex-direction: column;
-    background-color:#cdb29b ;
-    box-shadow: 2px 2px 20px 1px rgba(248, 211, 168, 0.824);
+    background-color:#eee0d3 ;
+    box-shadow: 2px 2px 20px 1px rgba(235, 157, 68, 0.824);
 
 }
 
@@ -121,27 +121,29 @@ input {
 .form-line {
     display: flex;
     flex-direction: row;
-    width: 770px;
+    width: 100%;
 }
 
 .checkbox-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 119px;
+    margin: 2px 4px;
+    padding: 0 4px;
 }
 
 .checkbox-container label {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 input[type="checkbox"] {
     margin: 10px 10px;
+    font-size: 16px;
 }
 
 .form-label {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
 }
 
 .form-inputw100 {
@@ -159,5 +161,15 @@ input[type="checkbox"] {
 }
 
 .form-horarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    justify-content: flex-start;
 
+
+}
+
+.form-horarios label,span,input {
+    margin: 10px 10px;
 }
