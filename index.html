@@ -12,9 +12,20 @@
 <body>
     <div class="div-principal">
         <div class="div-container">
-            <div class="div-title">
-                <h1 class="title">Cadastro Ponto Túristico</h1>
+            <div class="div-topo">
+                <div class="img">
+                    <img class="banner" src="/images/turismo.png">
+                </div>
+                <div class="div-title">
+                    <h1 class="title">Cadastro de Ponto Túristico</h1>
+
+                </div>
+                <a class="seta" href="#final-page">
+                    <img src="/images/seta.png" onclick="">
+                </a>
             </div>
+
+            <div id="final-page" />
             <form class="form-principal" autocomplete="off">
                 <fieldset>
                     <div class="form-legend">
@@ -22,8 +33,9 @@
                     </div>
                     <div class="form-box">
                         <div class="form-input">
-                            <label for="namept">Nome Ponto Túristico</label>
-                            <input type="text" id="namept" autocomplete="new-password">
+                            <label for="frm-namept">Nome Ponto Túristico</label>
+                            <input type="text" id="frm-namept" placeholder="Ex. Museu do ipiranga"
+                                autocomplete="frm-namept">
                         </div>
                         <div class="form-input">
                             <label for="tpponto">Tipo Ponto Túristico</label>
@@ -37,46 +49,49 @@
                             </select>
                         </div>
                         <div class="form-input">
-                            <label for="phone">Telefone</label>
-                            <input type="tel" id="phone">
+                            <label for="frm-phone">Telefone</label>
+                            <input type="tel" id="frm-phone" placeholder="Ex. (11) 3333-2222" autocomplete="frm-phone">
                         </div>
                         <div class="form-input">
-                            <label for="email">Email</label>
-                            <input type="email" id="email">
+                            <label for="frm-email">Email</label>
+                            <input type="email" id="frm-email" placeholder="Ex. nome@email.com"
+                                autocomplete="frm-email">
                         </div>
                         <div class="form-input">
-                            <label for="site">Site</label>
-                            <input type="url" id="site">
+                            <label for="frm-site">Site</label>
+                            <input type="url" id="frm-site" placeholder="Ex. www.example.com" autocomplete="frm-site">
                         </div>
                 </fieldset>
+
                 <fieldset>
                     <div class="form-legend">
                         <legend>Endereço</legend>
                     </div>
                     <div class="form-box">
                         <div class="form-input">
-                            <label for="cep">CEP</label>
-                            <input type="text" id="cep">
+                            <label for="frm-cep">CEP</label>
+                            <input type="text" id="frm-cep" placeholder="Ex. 00000-000" autocomplete="frm-cep">
                         </div>
                         <div class="form-input">
-                            <label for="endereco">Logradouro</label>
-                            <input type="text" id="endereco">
+                            <label for="frm-endereco">Logradouro</label>
+                            <input type="text" id="frm-endereco" placeholder="Ex. Rua: nome da rua"
+                                autocomplete="frm-endereco">
                         </div>
                         <div class="form-input">
-                            <label for="numero">Nº</label>
-                            <input type="number" id="numero">
+                            <label for="frm-numero">Nº</label>
+                            <input type="number" id="frm-numero" placeholder="Ex. 000" autocomplete="frm-numero">
                         </div>
                         <div class="form-input">
-                            <label for="bairro">Bairro</label>
-                            <input type="text" id="bairro">
+                            <label for="frm-bairro">Bairro</label>
+                            <input type="text" id="frm-bairro" placeholder="Ex. Ipiranga" autocomplete="frm-bairro">
                         </div>
                         <div class="form-input">
-                            <label for="cidade">Cidade</label>
-                            <input type="text" id="cidade">
+                            <label for="frm-cidade">Cidade</label>
+                            <input type="text" id="frm-cidade" placeholder="Ex. São Paulo" autocomplete="frm-cidade">
                         </div>
                         <div class="form-input">
-                            <label for="estado">Estado</label>
-                            <input type="text" id="estado">
+                            <label for="frm-estado">Estado</label>
+                            <input type="text" id="frm-estado" placeholder="Ex. São Paulo" autocomplete="frm-estado">
                         </div>
                 </fieldset>
                 <fieldset>
@@ -85,8 +100,8 @@
                     </div>
                     <div class="form-box">
                         <div class="form-input">
-                            <label for="valor">Valor</label>
-                            <input type="number" id="valor">
+                            <label for="frm-valor">Valor</label>
+                            <input type="number" id="frm-valor" placeholder="Ex.R$00,00" autocomplete="frm-valor">
                         </div>
                         <div class="form-input width100">
                             <label>Dias de Funcionamento</label>
